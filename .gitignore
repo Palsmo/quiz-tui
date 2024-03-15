@@ -1,0 +1,6 @@
+# folders
+/quizes_test
+/.vscode
+
+# specific files
+/.pylintrc

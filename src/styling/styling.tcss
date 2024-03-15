@@ -1,0 +1,16 @@
+Screen {
+	background: $background-lighten-1;
+}
+
+.background {
+	background: $background-lighten-1;
+}
+
+.window {
+	border: panel $primary-lighten-1;
+	padding-top: 1;
+}
+
+.border {
+	border: panel $primary;
+}

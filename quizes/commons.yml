@@ -1,0 +1,82 @@
+intro: "This quiz will test you on common terminal commands in both windows and linux."
+directory:
+  0:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+      - "Windows"
+    question: "change directory"
+    answers:
+      - "cd"
+  1:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+      - "Windows"
+    question: "change to parent directory"
+    answers:
+      - "cd .."
+  2:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+      - "Windows"
+    question: "display (non-verbose) directories in current path"
+    answers:
+      - "ls"
+      - "dir"
+  3:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+      - "Windows"
+    question: "display (verbose) directories in current path"
+    answers:
+      - "ls -la"
+      - "dir -la"
+  4:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+    question: "create the directory 'tmp'"
+    answers:
+      - "mkdir tmp"
+  5:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+    question: "delete the directory 'tmp'"
+    answers:
+      - "rm -r tmp"
+file:
+  0:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+    question: "create the file 'test.txt'"
+    answers:
+      - "touch test.txt"
+  1:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+    question: "delete the file 'test.txt'"
+    answers:
+      - "rm test.txt"
+  2:
+    weight: 0
+    case-sensitive: True
+    info:
+      - "Linux"
+    question: "edit the file 'test.txt'"
+    answers:
+      - "nano test.txt"
+      - "vim test.txt"
